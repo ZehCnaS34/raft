@@ -15,3 +15,5 @@ pom.xml.asc
 
 raft.iml
 /.idea/
+
+/.cpcache

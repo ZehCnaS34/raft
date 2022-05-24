@@ -1,0 +1,4 @@
+{:paths ["src"]
+ :deps  {org.clojure/clojure    {:mvn/version "1.10.3"}
+         org.clojure/core.async {:mvn/version "1.5.648"}
+         com.taoensso/nippy     {:mvn/version "2.6.3"}}}
