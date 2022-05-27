@@ -1,4 +1,8 @@
-{:paths ["src"]
- :deps  {org.clojure/clojure    {:mvn/version "1.10.3"}
-         org.clojure/core.async {:mvn/version "1.5.648"}
-         com.taoensso/nippy     {:mvn/version "2.6.3"}}}
+{:paths ["src/main/clojure" "src/dev/clojure"]
+ :deps  {org.clojure/clojure       {:mvn/version "1.10.3"}
+         org.clojure/core.async    {:mvn/version "1.5.648"}
+         org.zeromq/jeromq         {:mvn/version "0.5.2"}
+         com.cognitect/transit-clj {:mvn/version "1.0.329"}
+         integrant/integrant       {:mvn/version "0.8.0"}
+         integrant/repl            {:mvn/version "0.3.2"}
+         com.taoensso/nippy        {:mvn/version "2.6.3"}}}
